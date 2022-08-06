@@ -1,0 +1,102 @@
+body{
+    display: flex;
+}
+h1{
+    color:black;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h2{
+    color:tomato;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+hr{
+    width: 50px;
+    border: 5px solid red;
+    
+}
+
+/* SideBar */
+.side-bar{
+    background-color: tomato;
+    width: 15%;
+    height: 100vh;
+}
+
+.side-bar h1{
+    color: white;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 50px;
+    padding: 50px;
+    
+}
+
+.side-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 200px;
+    padding: 20px;
+
+}
+.side-bar a:hover{
+    color: black;
+    background-color: white;
+    padding: 2%;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+/* main */ 
+
+.main {
+    width: 80%;
+}
+.main .container {
+    width: 80%;
+    margin: auto;
+}
+
+.container  .showcase img{
+    width: 25%;
+}
+/*Cards*/
+.cards{
+    display: flex;
+    margin: auto;
+    
+}
+
+.card{
+    background-color: lightgray;
+    width:30%;
+    height: 500px;
+    
+    
+    
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    
+}
+.paddding{
+    padding-right: 15%;
+}
+.cards h2{
+    opacity: 80%;
+}
+/*-FORM-*/
+.connect-form{
+    width:500px;
+    height: 20px;
+  }
+.connect-form button{
+    border:none;
+    
+  }
